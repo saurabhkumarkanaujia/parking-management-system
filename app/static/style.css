@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+}
+
+#output div {
+    margin: 4px 0;
+}

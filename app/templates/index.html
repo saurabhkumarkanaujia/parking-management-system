@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Management</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1>Parking Management System</h1>
+
+<button onclick="loadAll()">View All Parking Spaces</button>
+<button onclick="loadEmpty()">View Empty Spaces</button>
+<button onclick="checkFull()">Check Full Capacity</button>
+
+<h2>Parking Spaces</h2>
+<div id="output"></div>
+
+<h2>Update Availability (Car Exit)</h2>
+<input type="number" id="level" placeholder="Level">
+<input type="number" id="spot" placeholder="Spot Number">
+<button onclick="updateExit()">Mark Exit</button>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
